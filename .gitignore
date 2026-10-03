@@ -1,0 +1,25 @@
+# Terraform state (NEVER commit these)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+!terraform.tfvars.example
+
+# Kubernetes
+*.kubeconfig
+
+# Logs
+*.log
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
